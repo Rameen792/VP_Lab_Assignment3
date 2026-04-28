@@ -142,3 +142,34 @@ body{
     }
 
 }
+/* Open on mobile */
+@media (max-width: 576px){
+
+    .navbar{
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .navbar .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-brand img{
+        width: 130px;
+    }
+
+    .navbar-nav{
+        gap: 18px;
+    }
+
+    .nav-link{
+        font-size: 17px;
+    }
+
+    .nav-item:last-child .nav-link{
+        width: 100%;
+        text-align: center;
+    }
+
+}
