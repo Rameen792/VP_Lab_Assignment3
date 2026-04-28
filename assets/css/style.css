@@ -117,3 +117,28 @@ body{
     background-color: #2e22c0;
     color: white !important;
 }
+.navbar-toggler{
+    border: none;
+    box-shadow: none !important;
+    padding: 0;
+}
+/* Open on Tablet */
+@media (max-width: 991px){
+
+    .navbar .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .navbar-nav{
+        gap: 24px;
+        padding-top: 30px;
+
+        align-items: flex-start !important;
+    }
+
+    .nav-item:last-child .nav-link{
+        margin-top: 10px;
+    }
+
+}
