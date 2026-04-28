@@ -1,2 +1,11 @@
 /* GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Root Values */
+:root{
+    --primary-color: #4335DE;
+    --dark-color: #02033B;
+    --light-bg: #F3F8FF;
+    --white-color: #ffffff;
+}
+
