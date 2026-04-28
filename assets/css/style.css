@@ -95,3 +95,25 @@ body{
 .nav-link:hover{
     color: #4335DE !important;
 }
+/* Sign in Button */
+.nav-item:last-child .nav-link{
+    background-color: #4335DE;
+
+    color: white !important;
+
+    padding: 16px 22px !important;
+
+    border-radius: 42px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    line-height: normal;
+
+    transition: 0.3s ease;
+}
+
+.nav-item:last-child .nav-link:hover{
+    background-color: #2e22c0;
+    color: white !important;
+}
