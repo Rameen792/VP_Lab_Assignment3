@@ -173,3 +173,134 @@ body{
     }
 
 }
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-section{
+    background-color: #F3F8FF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* LEFT */
+
+.hero-title{
+    font-size: 56px;
+    font-weight: 800;
+    color: #02033B;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #4A4D70;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 520px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary-custom{
+    background-color: #FFC247;
+    color: #02033B;
+    padding: 16px 24px;
+    border-radius: 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-secondary-custom{
+    border: 2px solid #02033B;
+    color: #02033B;
+    padding: 14px 22px;
+    border-radius: 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* RIGHT */
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image-wrapper{
+    position: relative;
+    width: 420px;
+    height: 520px;
+    background-color: #4335DE;
+    overflow: hidden;
+}
+
+/* BACKGROUND IMAGE */
+
+.hero-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+/* PHONE IMAGE */
+
+.hero-phone{
+    position: absolute;
+    width: 240px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px){
+
+    .hero-title{
+        font-size: 42px;
+    }
+
+    .hero-buttons{
+        flex-direction: column;
+    }
+
+    .hero-left{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .hero-title{
+        font-size: 32px;
+    }
+
+    .hero-text{
+        font-size: 16px;
+    }
+
+    .hero-buttons a{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-image-wrapper{
+        width: 100%;
+        height: 400px;
+    }
+
+    .hero-phone{
+        width: 180px;
+    }
+
+}
