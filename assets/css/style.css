@@ -187,11 +187,14 @@ body{
 }
 
 .hero-title{
-    font-size: 78px;
-    line-height: 1.05;
-    font-weight: 700;
-    color: #02033B;
-    margin-bottom: 30px;
+    font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 60px;
+line-height: 75px;
+letter-spacing: -1.2px;
+vertical-align: middle;
+
 }
 
 .hero-text{
@@ -255,38 +258,40 @@ body{
 /* PURPLE BOX */
 
 .purple-box{
-    position: absolute;
-    width: 120px;
-    height: 100%;
-    background-color: #4335DE;
-    top: -20px;
-    left: -20px;
-    z-index: 0;
+position: absolute;
+left: -21.59px;
+right: -200px;
+top: -25.19px;
+bottom: 3.59px;
+
+background: #4335DE;
+
 }
 
 /* BACKGROUND IMAGE */
 
 .hero-bg{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: url(.png);
+
 }
 
 /* PHONE IMAGE */
 
 .hero-phone{
-    position: absolute;
+position: absolute;
+height: 461.25px;
+left: 0px;
+right: 0px;
+top: calc(50% - 461.25px/2);
 
-    width: 290px;
+background: url(.png);
 
-    left: 50%;
-    top: 50%;
-
-    transform: translate(-50%, -50%);
-
-    z-index: 2;
 }
 @media(max-width:991px){
 
