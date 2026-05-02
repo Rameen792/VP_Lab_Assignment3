@@ -173,3 +173,118 @@ body{
     }
 
 }
+/* Hero Section */
+.hero-section{
+    background-color: #F3F8FF;
+    padding: 90px 0;
+    overflow: hidden;
+}
+
+/* LEFT SIDE */
+
+.hero-left{
+    padding-right: 40px;
+}
+
+.hero-title{
+    font-size: 78px;
+    line-height: 1.05;
+    font-weight: 700;
+    color: #02033B;
+    margin-bottom: 30px;
+}
+
+.hero-text{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #4A4D70;
+    margin-bottom: 40px;
+    max-width: 580px;
+}
+
+/* BUTTONS */
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-primary-custom{
+    background-color: #FFC247;
+    color: #02033B;
+    padding: 18px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary-custom:hover{
+    color: #02033B;
+}
+
+.btn-secondary-custom{
+    border: 2px solid #02033B;
+    color: #02033B;
+    padding: 18px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-secondary-custom:hover{
+    color: #02033B;
+}
+
+/* RIGHT SIDE */
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image-wrapper{
+    position: relative;
+    width: 540px;
+    height: 620px;
+}
+
+/* PURPLE BOX */
+
+.purple-box{
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background-color: #4335DE;
+    top: -20px;
+    left: -20px;
+    z-index: 0;
+}
+
+/* BACKGROUND IMAGE */
+
+.hero-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* PHONE IMAGE */
+
+.hero-phone{
+    position: absolute;
+
+    width: 290px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+}
