@@ -228,6 +228,21 @@ vertical-align: middle;
 .btn-primary-custom:hover{
     color: #02033B;
 }
+/* icon container */
+.button-arrow {
+    width: 20px;
+    height: 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PNG icon */
+.button-arrow img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 .btn-secondary-custom{
     border: 2px solid #02033B;
