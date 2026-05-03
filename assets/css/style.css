@@ -367,22 +367,23 @@ background: url(.png);
     }
 
 }
-/* ===================================
-   TESTIMONIAL SECTION
-=================================== */
+/* Testimonial Section */
 
 .testimonials-top{
-    background-color: #F3F8FF;
+   background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
     padding: 110px 0 80px;
 }
 
 /* HEADING */
 
 .testimonials-heading{
-    font-size: 60px;
-    line-height: 1.1;
-    font-weight: 700;
-    color: #02033B;
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.72px;
+    vertical-align: middle;
     max-width: 620px;
     margin-bottom: 70px;
 }
@@ -438,19 +439,14 @@ background: url(.png);
     margin: 0;
 }
 
-/* ===================================
-   FEATURED LOGOS SECTION
-=================================== */
-
 .featured{
-    background-color: #F3F8FF;
+    background: #FDB235;
     padding-bottom: 100px;
 }
 
 /* WRAPPER */
 
 .featured-wrapper{
-    border-top: 1px solid #D9DCEC;
     padding-top: 45px;
     gap: 30px;
 }
@@ -458,10 +454,14 @@ background: url(.png);
 /* TEXT */
 
 .featured-text p{
-    color: #4A4D70;
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0;
+ font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 23px;
+line-height: 30px;
+letter-spacing: -0.48px;
+vertical-align: middle;
+
 }
 
 /* LOGOS */
@@ -473,14 +473,13 @@ background: url(.png);
 /* IMAGES */
 
 .featured-logos img{
-    height: 28px;
-    width: auto;
-    opacity: 0.8;
+  width: 1045.75;
+height: 95;
+left: 202.25px;
+opacity: 1;
+
 }
 
-/* ===================================
-   RESPONSIVE
-=================================== */
 
 @media(max-width:991px){
 
