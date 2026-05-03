@@ -367,3 +367,164 @@ background: url(.png);
     }
 
 }
+/* ===================================
+   TESTIMONIAL SECTION
+=================================== */
+
+.testimonials-top{
+    background-color: #F3F8FF;
+    padding: 110px 0 80px;
+}
+
+/* HEADING */
+
+.testimonials-heading{
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #02033B;
+    max-width: 620px;
+    margin-bottom: 70px;
+}
+
+/* CARDS ROW */
+
+.cards-row{
+    row-gap: 30px;
+}
+
+/* CARD */
+
+.testimonial-card{
+    background-color: white;
+    padding: 38px;
+    border-radius: 40px;
+
+    height: 100%;
+
+    box-shadow: 0px 12px 30px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-5px);
+}
+
+/* STARS */
+
+.stars{
+    color: #FFC247;
+    font-size: 22px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+/* TEXT */
+
+.testimonial-card p{
+    color: #4A4D70;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* NAME */
+
+.testimonial-card h6{
+    color: #02033B;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ===================================
+   FEATURED LOGOS SECTION
+=================================== */
+
+.featured{
+    background-color: #F3F8FF;
+    padding-bottom: 100px;
+}
+
+/* WRAPPER */
+
+.featured-wrapper{
+    border-top: 1px solid #D9DCEC;
+    padding-top: 45px;
+    gap: 30px;
+}
+
+/* TEXT */
+
+.featured-text p{
+    color: #4A4D70;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* LOGOS */
+
+.featured-logos{
+    gap: 45px;
+}
+
+/* IMAGES */
+
+.featured-logos img{
+    height: 28px;
+    width: auto;
+    opacity: 0.8;
+}
+
+/* ===================================
+   RESPONSIVE
+=================================== */
+
+@media(max-width:991px){
+
+    .testimonials-heading{
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+
+    .featured-wrapper{
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .featured-logos{
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .testimonials-top{
+        padding: 70px 0 50px;
+    }
+
+    .testimonials-heading{
+        font-size: 34px;
+    }
+
+    .testimonial-card{
+        padding: 30px;
+        border-radius: 28px;
+    }
+
+    .testimonial-card p{
+        font-size: 16px;
+    }
+
+    .featured-logos{
+        gap: 25px;
+    }
+
+    .featured-logos img{
+        height: 22px;
+    }
+
+}
