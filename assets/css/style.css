@@ -680,59 +680,77 @@ opacity: 1;
     width: 100%;
   }
 
-  .btn-primary-custom,
-  .btn-outline-custom {
-    width: 100%;
-    justify-content: center;
-  }
 }
+/* Features Section */
 .features-section {
-  padding: 84px 0;
+  width: 100%;
+  padding: 84px 300px;
   background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
-  display: flex;
-  justify-content: center;
 }
 
+/* Heading */
 .features-heading {
+  max-width: 700px;
+  margin: 0 auto 56px;
+  text-align: center;
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 36px;
   line-height: 45px;
-  text-align: center;
+  letter-spacing: -0.72px;
   color: #02033B;
-  margin-bottom: 60px;
 }
 
+/* Card */
 .features-card {
-  background: #ffffff;
-  border-radius: 48px;
+  max-width: 840px;
+  margin: 0 auto;
   padding: 72px;
+  border-radius: 48px;
+  background: #FFFFFF;
   box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* GRID */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px 32px;
+  justify-items: center;
+}
+
+/* ITEM */
+.feature-item {
+  width: 200px;
+  text-align: center;
+}
+
+/* ICON */
 .feature-item img {
-  width: 70px;
-  height: 70px;
+  width: 72px;
+  height: 72px;
   margin-bottom: 20px;
 }
 
+/* TITLE */
 .feature-item h4 {
+  margin-bottom: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 19px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.4px;
   color: #02033B;
 }
 
+/* TEXT */
 .feature-item p {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 24px;
   color: #02033B;
-  max-width: 220px;
-  margin: 0 auto;
 }
-
 .features-buttons {
   margin-top: 60px;
   display: flex;
@@ -759,17 +777,29 @@ opacity: 1;
   background: #FFC247;
   padding: 16px 26px;
   border-radius: 42px;
-  font-weight: 600;
   color: #02033B;
   text-decoration: none;
+  font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 19px;
+line-height: 22.5px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
 }
 
 .btn-outline-custom {
-  padding: 16px 26px;
-  border-radius: 42px;
-  border: 2px solid #02033B;
-  color: #02033B;
-  text-decoration: none;
+ font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 19px;
+line-height: 22.5px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
 }
 
 @media (max-width: 992px) {
