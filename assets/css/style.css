@@ -825,3 +825,14 @@ vertical-align: middle;
     text-align: center;
   }
 }
+/* Info Section */
+.info-section{
+   width: 1440px;
+height: 464px;
+opacity: 1;
+padding-top: 84px;
+padding-right: 264px;
+padding-bottom: 84px;
+padding-left: 264px;
+ 
+}
