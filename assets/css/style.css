@@ -200,7 +200,7 @@ body{
 /* LEFT SIDE */
 
 .hero-left{
-    padding-right: 40px;
+    padding-right: 0px;
     position: relative;
     z-index: 2;
 }
@@ -292,8 +292,6 @@ vertical-align: middle;
     width: 540px;
     height: 620px;
 }
-
-/* PURPLE BOX */
 
 .purple-box{
 position: absolute;
