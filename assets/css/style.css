@@ -412,7 +412,14 @@ background: url(.png);
 /* CARDS ROW */
 
 .cards-row{
-    row-gap: 30px;
+  display: flex;
+  gap: 30px;
+  overflow: hidden; /* side cut effect */
+}
+
+.card-item{
+  min-width: 380px; /* card width fix */
+  flex: 0 0 auto;
 }
 
 /* CARD */
