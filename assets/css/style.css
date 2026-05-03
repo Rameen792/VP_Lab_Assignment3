@@ -178,12 +178,35 @@ body{
     background-color: #F3F8FF;
     padding: 90px 0;
     overflow: hidden;
+    position: relative;
+}
+.hero-circle{
+
+    position: absolute;
+
+    width: 1770px;
+    height: 1770px;
+
+    left: -850%;
+    top: -850%;
+    opacity: 0.5;
+    transform: translate(-50%, -50%);
+
+    z-index: 0;
+
+   
 }
 
 /* LEFT SIDE */
 
 .hero-left{
     padding-right: 40px;
+    position: relative;
+    z-index: 2;
+}
+.hero-right{
+    position: relative;
+    z-index: 2;
 }
 
 .hero-title{
