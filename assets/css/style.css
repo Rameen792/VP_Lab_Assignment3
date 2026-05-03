@@ -1253,3 +1253,263 @@ opacity: 1;
     gap: 40px;
     margin-bottom: 50px;
 }
+.footer-social a{
+    width: 42px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.footer-social a svg{
+    width: 22px;
+    height: 22px;
+    fill: #02033B;
+}
+
+.footer-social a:hover{
+    transform: translateY(-5px);
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-links a{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: #FFC247;
+}
+.footer-copy p{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.footer-copy p:last-child{
+    margin-bottom: 0;
+}
+.footer-center{
+    width: 188px;
+}
+.footer-logo{
+    font-size: 52px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.footer-line{
+    width: 100%;
+    height: 2px;
+    background: rgba(255,255,255,0.4);
+    margin-bottom: 50px;
+}
+.footer-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-menu li{
+    margin-bottom: 32px;
+    position: relative;
+    padding-left: 45px;
+}
+
+.footer-menu li:last-child{
+    margin-bottom: 0;
+}
+.footer-menu li::before{
+    content: "";
+    width: 22px;
+    height: 2px;
+    background: #FFC247;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: #FFC247;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.footer-menu li a:hover{
+    color: #FFFFFF;
+}
+.footer-right{
+    max-width: 436px;
+    width: 100%;
+}
+.newsletter-box{
+    background: #FFC247;
+    border-radius: 42px;
+    padding: 40px 36px;
+    position: relative;
+    overflow: hidden;
+}
+.newsletter-box h3{
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #02033B;
+    margin-bottom: 22px;
+}
+
+.newsletter-box p{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #02033B;
+    margin-bottom: 35px;
+}
+.newsletter-form{
+    display: flex;
+    align-items: center;
+}
+.newsletter-form input{
+    width: 100%;
+    height: 58px;
+    border: none;
+    outline: none;
+    padding: 0 22px;
+    border-radius: 40px 0 0 40px;
+    font-size: 18px;
+    color: #02033B;
+}
+
+.newsletter-form input::placeholder{
+    color: #77779A;
+}
+.newsletter-form button{
+    width: 130px;
+    height: 58px;
+    border: none;
+    background: #02033B;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover{
+    background: #000000;
+}
+.footer-card{
+    width: 100%;
+    height: 116px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 150px;
+}
+
+.footer-bottom-text{
+    max-width: 550px;
+    margin-top: 70px;
+}
+
+.footer-bottom-text p{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media (max-width: 1199px){
+
+    .footer-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .footer-right{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px){
+
+    .main-footer{
+        padding: 70px 0;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .footer-logo{
+        font-size: 42px;
+    }
+
+    .newsletter-box h3{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .footer-heading{
+        font-size: 38px;
+    }
+
+    .newsletter-box{
+        padding: 30px 24px;
+    }
+
+    .newsletter-box h3{
+        font-size: 28px;
+    }
+
+    .newsletter-form{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .newsletter-form input{
+        border-radius: 40px;
+    }
+
+    .newsletter-form button{
+        width: 100%;
+        border-radius: 40px;
+    }
+
+    .footer-card{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 575px){
+
+    .footer-heading{
+        font-size: 32px;
+    }
+
+    .footer-links{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .footer-menu li a{
+        font-size: 18px;
+    }
+
+    .newsletter-box h3{
+        font-size: 24px;
+    }
+}
