@@ -1247,3 +1247,18 @@ height: 182px;
 opacity: 1;
 
 }
+.footer-heading{
+    width: 254px;
+height: 30px;
+top: -1px;
+font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 23px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+opacity: 1;
+
+}
