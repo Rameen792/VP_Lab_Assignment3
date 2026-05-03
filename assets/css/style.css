@@ -1231,5 +1231,12 @@ padding-right: 192px;
 padding-bottom: 96px;
 padding-left: 192px;
 opacity: 1;
-
+}
+.foot-wrapper{
+    width: 1056px;
+height: 584px;
+opacity: 1;
+display: flex;
+    justify-content: space-between;
+    gap: 60px;
 }
