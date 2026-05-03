@@ -960,16 +960,17 @@ body {
   color: #ffffff;
   font-weight: 600;
 }
-
-.arrow {
-  width: 14px;
-  height: 14px;
-  display: inline-block;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  transform: rotate(-45deg);
+.button-arrow {
+    width: 20px;
+    height: 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.arrow.dark {
-  border-color: #000;
+/* PNG icon */
+.button-arrow img {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
