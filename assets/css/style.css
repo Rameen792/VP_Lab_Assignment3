@@ -837,11 +837,17 @@ padding-left: 264px;
 background: #FFFFFF;
 }
 .info-container{
-    width: 912;
-height: 296;
+    width: 912px;
+height: 296px;
 gap: 72px;
 opacity: 1;
 padding-right: 36px;
 padding-left: 36px;
-
+}
+.info-card{
+    width: 460px;
+height: 296px;
+opacity: 1;
+border-radius: 48px;
+background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
 }
