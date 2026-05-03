@@ -834,5 +834,14 @@ padding-top: 84px;
 padding-right: 264px;
 padding-bottom: 84px;
 padding-left: 264px;
- 
+background: #FFFFFF;
+}
+.info-container{
+    width: 912;
+height: 296;
+gap: 72px;
+opacity: 1;
+padding-right: 36px;
+padding-left: 36px;
+
 }
