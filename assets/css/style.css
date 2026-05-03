@@ -991,3 +991,63 @@ body {
     height: 100%;
     display: inline-flex;
 }
+@media (max-width: 992px) {
+  .info-section {
+    padding: 80px 60px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .info-card {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .help-content {
+    width: 100%;
+    max-width: 308px;
+    text-align: center;
+  }
+
+  .cta-section {
+    padding: 80px 60px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .info-section {
+    padding: 60px 20px;
+  }
+
+  .info-card {
+    padding: 32px;
+    text-align: center;
+  }
+
+  .help-content {
+    text-align: center;
+  }
+
+  .cta-container h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .cta-buttons {
+    width: 100%;
+  }
+
+  .btn-yellow,
+  .btn-white {
+    width: 100%;
+    text-align: center;
+  }
+}
