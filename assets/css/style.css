@@ -851,3 +851,12 @@ opacity: 1;
 border-radius: 48px;
 background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
 }
+.info-card h2{
+    width: 364px;
+height: 31px;
+top: 47px;
+left: 48px;
+opacity: 1;
+padding-right: 204px;
+padding-bottom: 1px;
+}
