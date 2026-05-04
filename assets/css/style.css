@@ -493,16 +493,18 @@ vertical-align: middle;
 /* LOGOS */
 
 .featured-logos{
-    gap: 45px;
+    display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 
 /* IMAGES */
 
 .featured-logos img{
-  width: 1045.75;
-height: 95;
-left: 202.25px;
-opacity: 1;
+   flex-shrink: 0;
+   height: 95px;
+    width: 130px;
 
 }
 
