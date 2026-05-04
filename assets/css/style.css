@@ -180,22 +180,26 @@ body{
     overflow: hidden;
     position: relative;
 }
-.hero-circle{
-
+.hero-circle
+{
     position: absolute;
 
-    width: 1770px;
-    height: 1770px;
+    width: 800px;
+    height: 600px;
 
-    left: -850%;
-    top: -850%;
-    opacity: 0.5;
-    transform: translate(-50%, -50%);
+    top: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: radial-gradient(
+        circle at center,
+        #FFFFFF 0%,
+        #E7EFFA 100%
+    );
 
     z-index: 0;
-
-   
 }
+
 
 /* LEFT SIDE */
 
@@ -284,6 +288,8 @@ vertical-align: middle;
 .hero-right{
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-image-wrapper{
@@ -295,13 +301,15 @@ vertical-align: middle;
 /* PURPLE BOX */
 
 .purple-box{
+
 position: absolute;
 left: -21.59px;
-right: -200px;
+right: 0px;
 top: -25.19px;
 bottom: 3.59px;
 
 background: #4335DE;
+
 
 }
 
